@@ -1,0 +1,34 @@
+body {
+  background: brown;
+}
+
+.imgBox {
+  background-image: url("Capture.PNG");
+  position: relative;
+  top: 5px;
+  left: 7px;
+  height: 145px;
+  width: 145px;
+  cursor: pointer;
+}
+
+.whiteBox {
+  height: 165px;
+  width: 165px;
+  margin: 10px;
+  background-color: white;
+  border: 3px black solid;
+}
+
+.hold {
+  border: solid red 4px;
+}
+
+.hide {
+  display: none;
+}
+
+.dashed {
+  background: rgb(214, 206, 206);
+  border-style: dashed;
+}
